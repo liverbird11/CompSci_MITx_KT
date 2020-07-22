@@ -8,7 +8,7 @@ The code is as-submitted + a couple of functions added to allow custom encryptio
 
 #### Running the code
 
-Start by running _ps5.py_ in your chosen IDE (e.g. Spyder).
+Start by running _ps5.py_ in your chosen IDE (e.g. Spyder). The _words.txt_ file contains English words for checking whether a string is a valid word, used in a brute force manner by the decryptor to determine whether a plaintext message is found.
 
 To use the decryptor to decrypt a secret message from the MITx course given in _story.txt_:
 
@@ -19,7 +19,7 @@ decrypt_story()
 To encrypt a secret message and have it saved in _EncryptedMessage.txt_. Please remember to include quotation marks in your message("example" or 'example'), and _shift_ is an integer (from 1 to 25) denoting the number of letters to shift to generate the ciphertext:
 
 ```
-encrypt_story("This is an example message", shift)
+encrypt_story("This is an example message", shift = 8)
 ```
 
 To decrypt the ciphertext in _EncryptedMessage.txt_:
